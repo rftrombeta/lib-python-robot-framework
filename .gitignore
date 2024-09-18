@@ -1,0 +1,31 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+.terraform.lock.hcl
+terraform/temp/*
+
+# IDE
+.idea/*
+.vscode/*
+.ionide/
+__pycache__
+
+# Project
+.env
+.venv
+requirementstmp.txt
+
+# Crash log files
+crash.log
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
